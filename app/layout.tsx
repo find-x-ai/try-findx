@@ -16,7 +16,7 @@ export default function RootLayout({
     <html lang="en">
       <body className="font-sans">{children}</body>
       <ChatBox
-        config={{ findx_key: process.env.FINDX_SECRET_KEY!, theme: "dark" }}
+        config={{ findx_key: process.env.NEXT_PUBLIC_FINDX_KEY!, theme: "dark" }}
       />
     </html>
   );
