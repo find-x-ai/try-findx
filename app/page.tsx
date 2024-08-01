@@ -32,7 +32,7 @@ export default function Home() {
             href="https://nextjs.org/"
             className="underline font-semibold cursor-pointer"
           >
-           CPP
+           React
           </a>{" "}
           to the find-x ai.
         </h3>
